@@ -111,3 +111,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Disqus Comments . Configuration provided by https://mmistakes.github.io/minimal-mistakes/docs/configuration/#comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "mrpurplehobbies"
