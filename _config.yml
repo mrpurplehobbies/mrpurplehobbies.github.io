@@ -14,9 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MrPurple Hobbies blog
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-Welcome, here you will find me talking about my hobbies, with reviews of headphones, technology, games, etc.
+email: antoniosacramento666@gmail.com
+description: Welcome, here you will find me talking about my hobbies, with reviews of headphones, technology, games, etc.
 # twitter_username: username
 github_username: MrPurple666
 minimal_mistakes_skin: neon
@@ -84,6 +83,12 @@ footer:
    # - label: "Instagram"
   #    icon: "fab fa-fw fa-instagram"
    #   url: "https://instagram.com/"
+
+# Disqus Comments . Configuration provided by https://mmistakes.github.io/minimal-mistakes/docs/configuration/#comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "mrpurplehobbies"
 
 defaults:
   # _posts
